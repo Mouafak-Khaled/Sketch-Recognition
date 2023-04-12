@@ -1,3 +1,15 @@
+Dataset:
+  - type: image
+    params:
+      path: Dataset
+      transforms:
+      img_shape: [1, 28, 28]
+  
+  - type: stroke
+    params:
+      transfroms: false
+  
+
 
 CnnModel:
   name: SketchRecognitionCNN
